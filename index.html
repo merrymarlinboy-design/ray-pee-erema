@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ray Pee - EREMA (feat. MBoy Ricks)</title>
+    <meta property="og:title" content="Ray Pee - EREMA (feat. MBoy Ricks)">
+    <meta property="og:description" content="Stream EREMA by Ray Pee feat. MBoy Ricks on Spotify, Apple Music, and Boomplay.">
+    <meta property="og:image" content="cover.jpg">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+            background: rgba(25, 25, 25, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .artwork {
+            width: 200px;
+            height: 200px;
+            border-radius: 12px;
+            object-fit: cover;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            display: block;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        .artist {
+            font-size: 15px;
+            color: #b3b3b3;
+            margin-bottom: 25px;
+        }
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .platform-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #242424;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .platform-btn:hover {
+            transform: scale(1.02);
+            background-color: #333333;
+        }
+        .spotify:hover { background-color: #1db954; }
+        .apple:hover { background-color: #fa243c; }
+        .boomplay:hover { background-color: #e21221; }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Cover Art -->
+        <img src="cover.jpg" alt="EREMA Cover Art" class="artwork">
+
+        <!-- Track Info -->
+        <h1>EREMA</h1>
+        <div class="artist">Ray Pee feat. MBoy Ricks</div>
+
+        <!-- Platform Links -->
+        <div class="links-list">
+            <a href="https://open.spotify.com/track/1auKa84lUQ0DtgS4FuD9qa?si=oKVsNAIwT_iZirMDPHWubA" class="platform-btn spotify" target="_blank" rel="noopener">Spotify</a>
+            <a href="https://music.apple.com/ng/album/erema-feat-mboy-ricks/6820200887?i=6820200890&ls" class="platform-btn apple" target="_blank" rel="noopener">Apple Music</a>
+            <a href="https://www.boomplay.com/share/music/EQt-u6qDAlvF2nKkQJRsWqwU" class="platform-btn boomplay" target="_blank" rel="noopener">Boomplay</a>
+        </div>
+
+        <div class="footer">
+            Powered by DE VOICE
+        </div>
+    </div>
+
+</body>
+</html>
+  
